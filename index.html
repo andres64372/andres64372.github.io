@@ -22,6 +22,7 @@
         <button type="button" onclick="focus1()"><strong>Sobre mi</strong></button>|
         <button type="button" onclick="focus2()"><strong>Titulos</strong></button>|
         <button type="button" onclick="focus3()"><strong>Habilidades</strong></button>
+        <button type="button" onclick="focus4()"><strong>Contacto</strong></button>
       </p>
     </div>
   </div>
@@ -97,6 +98,16 @@
       <p class="subtitle right">Creación de smart home devices basados en <strong>Google</strong> Assistant</p>
     </div>
   </div>
+  <div class="container">
+    <div class="divisor white">
+      <p class="title"></p>
+    </div>
+  </div>
+  <div id="id4" class="col6 black left">
+    <p class="title">Contacto</p>
+    <p class="subtitle" align="right">andres64372@hotmail.com</p>
+    <p class="subtitle" align="right">github.com/andres64372</p>
+  </div>
 </body>
 <script type="text/javascript">
   function focus1(){
@@ -109,6 +120,10 @@
   }
   function focus3(){
     var elmnt = document.getElementById("id3");
+    elmnt.scrollIntoView();
+  }
+  function focus4(){
+    var elmnt = document.getElementById("id4");
     elmnt.scrollIntoView();
   }
 </script>
